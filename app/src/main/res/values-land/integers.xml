@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 横屏可视宽度大，正文基准字号略增 -->
+    <integer name="reader_base_sp">17</integer>
+    <integer name="code_base_sp">13</integer>
+    <integer name="list_indent_dp">18</integer>
+</resources>

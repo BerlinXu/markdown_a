@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/file_row"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:gravity="top"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/screen_h_pad"
+    android:paddingTop="14dp"
+    android:paddingEnd="@dimen/screen_h_pad"
+    android:paddingBottom="14dp">
+
+    <!-- 迷你纸页缩略 -->
+    <FrameLayout
+        android:layout_width="38dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="12dp"
+        android:background="@color/card">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_file_thumb" />
+
+        <View
+            android:layout_width="24dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="9dp"
+            android:background="@color/brand" />
+
+        <View
+            android:layout_width="15dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/ink3" />
+
+        <View
+            android:layout_width="20dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="21dp"
+            android:background="@color/line2" />
+
+        <View
+            android:layout_width="12dp"
+            android:layout_height="2dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="26dp"
+            android:background="@color/line2" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/doc_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/ink"
+            android:textSize="14.5sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/doc_preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/ink3"
+            android:textSize="11.5sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/dirty_dot"
+                android:layout_width="6dp"
+                android:layout_height="6dp"
+                android:layout_marginEnd="6dp"
+                android:background="@drawable/bg_dot_accent"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/doc_stamp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textColor="@color/ink3"
+                android:textSize="10.5sp" />
+
+            <ImageView
+                android:id="@+id/doc_more"
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:contentDescription="@string/settings"
+                android:padding="4dp"
+                android:src="@drawable/ic_more"
+                app:tint="@color/ink3" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

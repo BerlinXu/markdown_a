@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="drawio" version="31.4.4">
+  <diagram id="06-transformer" name="从文本到下一段文本">
+    <mxGraphModel page="1" pageWidth="760" pageHeight="1100" background="#FFFDF7">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="从文本到下一段文本" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=32;fontColor=#284B40;fontStyle=1;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="常见自回归生成流程的教学简化" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#284B40;fontStyle=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="680" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="分词与编码&#10;文本变成 token 序列" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="600" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="嵌入与位置信息&#10;变成可计算的表示" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="600" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#658472;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="多层模型变换&#10;注意力、前馈网络等组件" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="600" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#658472;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="输出分布&#10;估计后续 token 的可能性" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="600" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#658472;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="7" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="选择并输出 token&#10;加入上下文，继续下一步" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="800" width="600" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#658472;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="9" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="反复生成直到满足停止条件；训练与生成不同。" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#284B40;fontStyle=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="1000" width="680" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

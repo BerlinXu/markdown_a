@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 横屏：加宽页边距 + 提高限宽，编辑页自动分屏 -->
+    <dimen name="content_h_pad">48dp</dimen>
+    <dimen name="content_max_width">920dp</dimen>
+    <dimen name="screen_h_pad">24dp</dimen>
+    <dimen name="block_gap">14dp</dimen>
+    <dimen name="drawer_width">320dp</dimen>
+    <dimen name="appbar_height">52dp</dimen>
+    <dimen name="toc_jump_overscroll">24dp</dimen>
+</resources>

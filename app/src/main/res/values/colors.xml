@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ============ 纸墨书页 · 浅色 ============ -->
+    <color name="paper">#F7F3EA</color>        <!-- App 背景：暖纸 -->
+    <color name="card">#FFFDF7</color>         <!-- 卡片 -->
+    <color name="ink">#1E2420</color>          <!-- 主文字 -->
+    <color name="ink2">#5E6763</color>         <!-- 次文字 -->
+    <color name="ink3">#8A928C</color>         <!-- 弱文字 -->
+    <color name="line">#E2DAC9</color>         <!-- 分隔线 -->
+    <color name="line2">#D2C9B6</color>        <!-- 强分隔线 / 描边 -->
+    <color name="brand">#2C5F4E</color>        <!-- 墨绿：主色 -->
+    <color name="brand_ink">#FFFFFF</color>    <!-- 主色上的文字 -->
+    <color name="brand_soft">#E5EDE7</color>   <!-- 主色浅底 -->
+    <color name="accent">#B03A2E</color>       <!-- 朱砂：点睛 -->
+    <color name="accent_soft">#F4E2DC</color>
+    <color name="code_bg">#EEF2EC</color>      <!-- 代码底 -->
+    <color name="quote_bg">#F3EEE1</color>     <!-- 引用底 -->
+    <color name="scrim">#6E141815</color>      <!-- 抽屉遮罩 -->
+    <color name="launcher_bg">#2C5F4E</color>
+    <color name="status_bar">@color/paper</color>
+</resources>

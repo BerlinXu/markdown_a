@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 竖屏：正文限宽，保证行长舒适 -->
+    <dimen name="content_h_pad">22dp</dimen>
+    <dimen name="content_max_width">680dp</dimen>
+    <dimen name="screen_h_pad">16dp</dimen>
+    <dimen name="block_gap">12dp</dimen>
+    <dimen name="drawer_width">252dp</dimen>
+    <dimen name="appbar_height">56dp</dimen>
+    <dimen name="toolbar_height">40dp</dimen>
+    <dimen name="toc_jump_overscroll">14dp</dimen>
+    <dimen name="editor_split_ratio">0.5</dimen>
+</resources>

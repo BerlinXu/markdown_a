@@ -1,0 +1,23 @@
+# 构建产物与本地配置，不进版本库
+*.iml
+.gradle/
+build/
+local.properties
+.idea/
+.DS_Store
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+!/release/纸墨Markdown.apk
+*.ap_
+*.dex
+.signing/
+*.jks
+*.keystore
+signing.properties
+.env
+.env.*
+*.log
+.opencodereview/
+*.drawio.bkp

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">纸墨Markdown</string>
+    <string name="app_full_name">纸墨Markdown · 阅读器</string>
+
+    <!-- 书架 -->
+    <string name="shelf">书架</string>
+    <string name="recent">最近</string>
+    <string name="starred">收藏</string>
+    <string name="folder_app">App 目录</string>
+    <string name="folder_ext">外部文件</string>
+    <string name="search_title">筛选文件名</string>
+    <string name="search_hint">输入关键字</string>
+    <string name="clear_filter">清除筛选</string>
+    <string name="removed">已移除授权</string>
+    <string name="remove_grant">移除授权</string>
+    <string name="empty_file">空文件</string>
+    <string name="yesterday_fmt">昨天</string>
+    <string name="err_read_simple">读不了这个文件</string>
+    <string name="new_file">新建</string>
+    <string name="open_other">打开其他位置的文件</string>
+    <string name="open_other_hint">调用系统选择器，可去微信下载目录、Download、任意文件夹挑 .md / .txt</string>
+    <string name="shelf_empty">这里还没有文件\n点右下角新建，或打开你手机里已有的 .md</string>
+    <string name="words_fmt">%1$s 字</string>
+    <string name="progress_fmt">读到 %1$d%%</string>
+
+    <!-- 阅读 -->
+    <string name="toc">目录</string>
+    <string name="toc_fmt">%1$d 个标题 · 点击跳转</string>
+    <string name="toc_missing">找不到对应的位置</string>
+    <string name="task_readonly_hint">设置里打开「勾选待办即保存」才能直接改</string>
+    <string name="save_fail_simple">写入失败，文件可能被别的程序占着</string>
+    <string name="reading_meta">%1$d 字 · 约 %2$d 分钟 · %3$s</string>
+    <string name="back_to_top">回到顶部</string>
+    <string name="open_link_title">打开链接</string>
+    <string name="open_link_fmt">要用浏览器打开吗？\n\n%1$s</string>
+    <string name="open">打开</string>
+    <string name="cancel">取消</string>
+    <string name="save_ok">已保存</string>
+    <string name="save_fail">保存失败：%1$s</string>
+    <string name="task_saved">待办已更新</string>
+    <string name="no_app_for_link">没找到能打开这个链接的应用</string>
+
+    <!-- 编辑 -->
+    <string name="edit">编辑</string>
+    <string name="preview">预览</string>
+    <string name="save">保存</string>
+    <string name="discard">丢弃</string>
+    <string name="keep_editing">继续编辑</string>
+    <string name="unsaved_title">有未保存的改动</string>
+    <string name="unsaved_msg">现在离开会丢掉这次改动，要先保存吗？</string>
+    <string name="cursor_fmt">行 %1$d · 列 %2$d</string>
+    <string name="preview_empty">预览会显示在这里</string>
+    <string name="preview_truncated">（预览只显示前面部分，还有 %1$d 段未渲染）</string>
+    <string name="unsaved_state">未保存</string>
+    <string name="saved">已存</string>
+    <string name="autosave_on">自动保存已开</string>
+    <string name="autosave_off">自动保存已关</string>
+    <string name="autosave_pending">1.5s 后写入…</string>
+    <string name="nothing_to_save">没有需要保存的改动</string>
+    <string name="nothing_to_undo">没有可撤销的改动了</string>
+    <string name="nothing_to_redo">没有可重做的改动了</string>
+    <string name="editor_hint">开始写。上面一排按钮负责插入 Markdown 标记，正文还是你自己打。</string>
+    <string name="only_edit">只看编辑</string>
+    <string name="only_preview">只看预览</string>
+    <string name="read_mode">切到阅读模式</string>
+
+    <!-- 设置 -->
+    <string name="settings">设置</string>
+    <string name="g_appearance">外观</string>
+    <string name="g_reading">阅读</string>
+    <string name="g_editing">编辑</string>
+    <string name="g_files">文件</string>
+    <string name="g_about">关于</string>
+    <string name="s_theme">主题</string>
+    <string name="s_theme_sub">浅色 / 深色 / 跟随系统</string>
+    <string name="s_face">正文气质</string>
+    <string name="s_face_sub">衬线像书页，无衬线更清爽（字号下方可试）</string>
+    <string name="face_ink">纸墨</string>
+    <string name="face_clean">清爽</string>
+    <string name="s_fontsize">字号</string>
+    <string name="s_fontsize_sub">阅读页与编辑页同时生效</string>
+    <string name="s_lineheight">行距</string>
+    <string name="s_lineheight_sub">正文行与行之间的松紧</string>
+    <string name="s_toc_btn">显示目录按钮</string>
+    <string name="s_toc_btn_sub">长文档建议开</string>
+    <string name="s_progress">右侧阅读进度线</string>
+    <string name="s_progress_sub">朱砂细线，标出当前位置</string>
+    <string name="s_remember">记住阅读位置</string>
+    <string name="s_remember_sub">下次打开自动回到上次那一段</string>
+    <string name="s_netimg">加载网络图片</string>
+    <string name="s_netimg_sub">关闭后只显示本地图片，不联网</string>
+    <string name="s_autosave">自动保存</string>
+    <string name="s_autosave_sub">停止输入 1.5 秒后写入文件</string>
+    <string name="s_mono_edit">编辑区使用等宽字体</string>
+    <string name="s_mono_edit_sub">对齐表格和代码更好看</string>
+    <string name="s_task_save">勾选待办即保存</string>
+    <string name="s_task_save_sub">在阅读页点方框就写回文件</string>
+    <string name="s_breakline">换行即分段</string>
+    <string name="s_breakline_sub">开启后单个回车就换行，更贴合中文写作</string>
+    <string name="s_default_dir">默认保存目录</string>
+    <string name="s_version">版本</string>
+    <string name="s_version_sub">1.0 · 无联网统计、无广告、无需账号</string>
+    <string name="s_reset">恢复默认设置</string>
+    <string name="dir_help">新建和保存的文件都在这里：\n\n%1$s\n\n想用手机自带文件管理器看到它们，走这条路径：内部存储 → Android → data → com.qoder.mdreader → files → Documents。\n\n别处的 .md 不用搬，点书架里的「打开其他位置的文件」直接选它就行。</string>
+    <string name="reset_confirm">只会重置外观和阅读/编辑偏好，书架与文件都不受影响。</string>
+    <string name="reset_done">已恢复默认</string>
+    <string name="theme_light">浅</string>
+    <string name="theme_dark">深</string>
+    <string name="theme_auto">自动</string>
+
+    <!-- 文件操作 -->
+    <string name="rename">重命名</string>
+    <string name="delete">删除</string>
+    <string name="share">分享</string>
+    <string name="delete_confirm_fmt">确定删除「%1$s」？这个操作不能撤销。</string>
+    <string name="deleted">已删除</string>
+    <string name="rename_title">重命名</string>
+    <string name="renamed">已重命名</string>
+    <string name="name_empty">文件名不能为空</string>
+    <string name="created_fmt">已新建 %1$s</string>
+    <string name="new_file_hint">文件名（不用写 .md）</string>
+    <string name="ok">好</string>
+
+    <string name="not_md">这个文件看起来不是文本文件</string>
+    <string name="loading">正在读取…</string>
+    <string name="landscape_show_controls">显示标题栏和系统栏</string>
+    <string name="landscape_hide_controls">收起标题栏和系统栏</string>
+</resources>

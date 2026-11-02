@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="drawio" version="31.4.4">
+  <diagram id="05-learning" name="从规则到学习">
+    <mxGraphModel page="1" pageWidth="760" pageHeight="1080" background="#FFFDF7">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="从规则到学习" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=32;fontColor=#284B40;fontStyle=1;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="训练是求参数；部署是处理新输入" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#284B40;fontStyle=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="680" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="明确编程" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=27;fontColor=#284B40;fontStyle=1;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="150" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="机器学习" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=27;fontColor=#284B40;fontStyle=1;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="420" y="150" width="300" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="开发者编写规则&#10;加上待处理数据" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="程序执行&#10;明确的控制流程" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="输出结果&#10;用测试检查程序" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="640" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="训练数据与目标&#10;合理切分数据" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="420" y="240" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="训练得到模型&#10;调整可学习参数" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="420" y="440" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="模型处理新数据&#10;检查泛化与错误" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="420" y="640" width="300" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#658472;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="6" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#658472;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#658472;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#658472;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="10" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="验证集帮助选方案；独立测试集用于最后评估。&#10;训练高分不能替代上线后的可靠性。" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=23;fontColor=#284B40;fontStyle=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="860" width="680" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="两者常组合使用；训练过程本身也是程序。" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#284B40;fontStyle=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="980" width="680" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

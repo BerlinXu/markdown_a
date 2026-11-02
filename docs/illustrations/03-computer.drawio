@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="drawio" version="31.4.4">
+  <diagram id="03-computer" name="存储程序计算机">
+    <mxGraphModel page="1" pageWidth="760" pageHeight="1000" background="#FFFDF7">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="存储程序计算机" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=32;fontColor=#284B40;fontStyle=1;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="逻辑结构示意 · 不是主板接线图" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#284B40;fontStyle=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="680" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="输入&#10;键盘、文件、传感器" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="处理器 CPU&#10;控制与运算" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="输出&#10;屏幕、打印、执行器" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="工作内存&#10;保存指令和数据" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="440" y="480" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="持久存储&#10;程序和文件" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="220" y="760" width="320" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#658472;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#658472;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;startArrow=block;startFill=1;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#658472;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="400" />
+              <mxPoint x="180" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#658472;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;startArrow=block;startFill=1;" edge="1" parent="1" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="690" />
+              <mxPoint x="380" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="实际系统还包括缓存、总线和专用加速器。" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#284B40;fontStyle=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="900" width="680" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

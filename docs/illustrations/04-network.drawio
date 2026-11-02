@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="drawio" version="31.4.4">
+  <diagram id="04-network" name="一次联网请求的旅程">
+    <mxGraphModel page="1" pageWidth="760" pageHeight="940" background="#FFFDF7">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="一次联网请求的旅程" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=32;fontColor=#284B40;fontStyle=1;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="30" y="30" width="700" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="逻辑层次 · 实际部署可以合并或拆分" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#284B40;fontStyle=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="680" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="终端&#10;手机、电脑与本地应用" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="600" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="网络与协议&#10;寻址、转发、连接与名称解析" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="320" width="600" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#658472;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="应用服务&#10;验证请求，组织业务与模型计算" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="600" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#658472;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="5" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="数据与计算资源&#10;数据库、文件、索引和加速器" style="rounded=1;arcSize=14;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontFamily=Microsoft YaHei;fontSize=26;fontColor=#243D33;spacing=14;" vertex="1" parent="1">
+          <mxGeometry x="80" y="640" width="600" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#658472;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="7" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="延迟不仅来自带宽，也来自排队、距离与处理。" style="text;html=1;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Microsoft YaHei;fontSize=21;fontColor=#284B40;fontStyle=0;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="680" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

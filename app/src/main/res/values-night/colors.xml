@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ============ 纸墨书页 · 深色 ============ -->
+    <color name="paper">#141815</color>
+    <color name="card">#1B201C</color>
+    <color name="ink">#E9E5D9</color>
+    <color name="ink2">#A2ABA3</color>
+    <color name="ink3">#727B73</color>
+    <color name="line">#28302A</color>
+    <color name="line2">#38423A</color>
+    <color name="brand">#8FC6AB</color>
+    <color name="brand_ink">#0E1410</color>
+    <color name="brand_soft">#22302A</color>
+    <color name="accent">#E0785F</color>
+    <color name="accent_soft">#3A251F</color>
+    <color name="code_bg">#1D2420</color>
+    <color name="quote_bg">#211F1A</color>
+    <color name="scrim">#8C000000</color>
+    <color name="launcher_bg">#1B2420</color>
+    <color name="status_bar">@color/paper</color>
+</resources>
